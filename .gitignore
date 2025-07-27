@@ -1,0 +1,66 @@
+# Python packaging artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Python cache
+__pycache__/ 
+
+# Environment files and secrets
+.env
+.env.*
+local.env
+*.env
+config.json
+secrets.json
+
+# API Keys and tokens (prevent accidental commits)
+**/api_key*
+**/token*
+**/*_key*
+**/*_token*
+**/*_secret*
+
+# Large files and databases
+*.faiss
+*.bin
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector databases and storage
+**/metadata_chroma_db/
+**/chroma_db_storage/
+**/chromadb_storage/
+**/weaviate_data/
+**/vector_store/
+**/embeddings/
+
+# Virtual environments
+jive_env/
+venv/
+env/
+.venv/
+
+# IDE and system files
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+.claude/
+.git_disabled/
+untitled.txt
+temp/
+tmp/
+
+# Large data files
+*.tar.gz
+*.zip
+*.rar
+data_level*.bin

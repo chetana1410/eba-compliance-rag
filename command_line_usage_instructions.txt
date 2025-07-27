@@ -1,0 +1,390 @@
+# Step-by-Step Guide to Using the Regulation RAG Evaluation Framework
+
+This guide will walk you through how to use the regulation RAG evaluation framework from the command line, covering installation through evaluation.
+
+## STEP 1: Installation
+
+1. Navigate to the regulation_kg_eval_main directory:
+   ```bash
+   cd regulation_kg_eval_main
+   ```
+   ```cmd
+   cd regulation_kg_eval_main
+   ```
+
+2. Install the package and dependencies:
+   ```bash
+   pip install -e .
+   ```
+   ```cmd
+   pip install -e .
+   ```
+   This installs the package in development mode, allowing you to make changes to the code without reinstalling.
+
+3. Set up environment variables:
+   ```bash
+   cp example.local.env .env
+   ```
+   ```cmd
+   copy example.local.env .env
+   ```
+
+4. Edit the .env file with your API keys and configuration:
+   ```bash
+   # Open the .env file in your favorite editor
+   nano .env
+   ```
+   ```cmd
+   # Open the .env file in your favorite editor
+   notepad .env
+   ```
+   - Set OPENROUTER_API_KEY with your OpenRouter API key
+   - Configure other settings like model preferences and logging levels
+   - Save and close the file
+
+## STEP 2: Exploring Available RAG Implementations
+
+The framework contains several RAG implementations:
+- naive_rag: Basic vector-based retrieval (functioning)
+- CAG: Context-aware generation (functioning)
+- neo4j_llm_graph_builder_RAG: Graph-based retrieval using Neo4j (functioning)
+- stub: Minimal implementation for testing (functioning)
+- RAPTOR: Tree-based approach (not functioning yet)
+- topic_graph: Topic graph-based approach (not functioning yet)
+
+## STEP 3: Initializing and Running a RAG Implementation
+
+1. Before running the naive_rag implementation for the first time, you need to initialize it:
+   ```bash
+   # Set your OpenAI API key (required for embeddings)
+   export OPENAI_API_KEY=your_key_here
+   
+   # Run the initialization script
+   python initialize_naive_vector.py
+   ```
+   ```cmd
+   # Set your OpenAI API key (required for embeddings)
+   set OPENAI_API_KEY=your_key_here
+   
+   # Run the initialization script
+   python initialize_naive_vector.py
+   ```
+   This will create the necessary index files in the system directory.
+
+2. Run a full evaluation with the naive_rag implementation (simplest option):
+   ```bash
+   regulations-rag-eval run -r naive_rag
+   ```
+   ```cmd
+   # Windows has encoding issues with some JSON files
+   # Set the PYTHONIOENCODING environment variable before running
+   set PYTHONIOENCODING=utf-8
+   regulations-rag-eval run -r naive_rag
+   ```
+   This will:
+   - Process all questions in the default dataset
+   - Generate answers using the naive vector approach
+   - Save results to data/naive_rag/generated_answers.json
+
+2. Run with specific parameters:
+   ```bash
+   # Run with CAG implementation, limiting to first 5 questions
+   regulations-rag-eval run -r CAG -t 5
+   
+   # Run with a specific question dataset
+   regulations-rag-eval run -r naive_rag -q custom_questions.json
+   ```
+   ```cmd
+   # Run with CAG implementation, limiting to first 5 questions
+   regulations-rag-eval run -r CAG -t 5
+   
+   # Run with a specific question dataset
+   regulations-rag-eval run -r naive_rag -q custom_questions.json
+   ```
+
+3. Available command-line options for the 'run' command:
+   - `-r, --rag_implementation`: Specify which RAG implementation to use (required)
+   - `-q, --questions_file`: Path to the questions JSON file (default: data/qa_datasets/regulation_questions.json)
+   - `-o, --output_file`: Path to save generated answers (default: data/{rag_implementation}/generated_answers.json)
+   - `-t, --take`: Number of questions to process (default: all questions)
+   - `-s, --skip`: Number of questions to skip (default: 0)
+   - `-m, --model`: LLM model to use for generation (default: specified in .env)
+
+## STEP 4: Evaluating Generated Answers
+
+After generating answers, you can evaluate their quality against golden (reference) answers:
+
+1. Basic evaluation with default settings:
+   ```bash
+   regulations-rag-eval evaluate -a data/naive_rag/generated_answers.json
+   ```
+   ```cmd
+   regulations-rag-eval evaluate -a data/naive_rag/generated_answers.json
+   ```
+   This will:
+   - Load the generated answers
+   - Compare them against golden answers
+   - Save evaluation results to data/naive_rag/answer_evaluations.json
+
+2. Custom evaluation with specific parameters:
+   ```bash
+   # Evaluate with custom paths
+   regulations-rag-eval evaluate \
+     -a data/RAPTOR/generated_answers.json \
+     -q data/qa_datasets/regulation_questions.json \
+     -g data/qa_datasets/golden_answers.json \
+     -o data/RAPTOR/custom_evaluations.json
+   
+   # Evaluate using a specific LLM model
+   regulations-rag-eval evaluate \
+     -a data/naive_rag/generated_answers.json \
+     -m anthropic/claude-3-opus-20240229
+   ```
+   ```cmd
+   # Evaluate with custom paths
+   regulations-rag-eval evaluate ^
+     -a data/RAPTOR/generated_answers.json ^
+     -q data/qa_datasets/regulation_questions.json ^
+     -g data/qa_datasets/golden_answers.json ^
+     -o data/RAPTOR/custom_evaluations.json
+   
+   # Evaluate using a specific LLM model
+   regulations-rag-eval evaluate ^
+     -a data/naive_rag/generated_answers.json ^
+     -m anthropic/claude-3-opus-20240229
+   ```
+
+3. Available command-line options for the 'evaluate' command:
+   - `-a, --answers_file`: Path to the generated answers JSON file (required)
+   - `-q, --questions_file`: Path to the questions JSON file (default: data/qa_datasets/regulation_questions.json)
+   - `-g, --golden_answers_file`: Path to golden answers JSON file (default: data/qa_datasets/golden_answers.json)
+   - `-o, --output_file`: Path to save evaluation results (default: same directory as answers file)
+   - `-m, --model`: LLM model to use for evaluation (default: specified in .env)
+   - `-t, --take`: Number of questions to evaluate (default: all questions)
+   - `-s, --skip`: Number of questions to skip (default: 0)
+
+4. Available command-line options for the 'analyze-scores' command:
+   - `-i, --implementation`: Specific RAG implementation to analyze (to analyze all, use --compare instead)
+   - `-d, --detailed`: Show detailed statistics including score distribution (flag, no value needed)
+   - `-o, --output`: Path to save the analysis results as JSON
+   - `-c, --compare`: Compare all implementations and show ranking (flag, no value needed)
+
+## STEP 5: Viewing and Analyzing Results
+
+1. Examine the evaluation results:
+   ```bash
+   # View the evaluation results file
+   cat data/naive_rag/answer_evaluations.json
+   ```
+   ```cmd
+   # View the evaluation results file
+   type data\naive_rag\answer_evaluations.json
+   ```
+   The file contains detailed metrics for each question, including:
+   - Correctness scores
+   - Relevance assessments
+   - Completeness ratings
+   - Citation accuracy
+   - Overall quality scores
+
+2. Calculate average scores and view statistics:
+   ```bash
+   # Calculate average score for a specific implementation
+   regulations-rag-eval analyze-scores -i naive_rag
+   
+   # Show detailed statistics including score distribution
+   regulations-rag-eval analyze-scores -i naive_rag -d
+   
+   # Compare all implementations and show ranking
+   regulations-rag-eval analyze-scores --compare
+   
+   # Save analysis results to a JSON file
+   regulations-rag-eval analyze-scores -i naive_rag -o analysis/naive_vector_scores.json
+   ```
+   ```cmd
+   # Calculate average score for a specific implementation
+   regulations-rag-eval analyze-scores -i naive_rag
+   
+   # Show detailed statistics including score distribution
+   regulations-rag-eval analyze-scores -i naive_rag -d
+   
+   # Compare all implementations and show ranking
+   regulations-rag-eval analyze-scores --compare
+   
+   # Save analysis results to a JSON file
+   regulations-rag-eval analyze-scores -i naive_rag -o analysis\naive_vector_scores.json
+   ```
+   
+   The score analysis displays:
+   - Average score across all evaluations
+   - Number of evaluations included
+   - (When using --detailed) Median, standard deviation, min/max values, and score distribution
+   - (When using --compare) Ranking of implementations by average score
+
+3. Additional comparison options:
+   - Use the provided example script for visual comparison:
+     ```bash
+     python examples/analyze_all_scores.py
+     ```
+     ```cmd
+     python examples\analyze_all_scores.py
+     ```
+   - Use tools like jq to extract and further process metrics
+   - Create custom visualizations using the data in answer_evaluations.json files
+
+## STEP 6: Troubleshooting Common Issues
+
+1. API rate limiting:
+   - If you encounter rate limiting, adjust your .env file to include longer retry intervals
+   - Consider implementing your own rate limiting in open_router_request.py
+
+2. Memory constraints:
+   - For large documents, try processing fewer questions at a time using the `-t` flag
+   - Adjust chunking parameters in the implementation you're using
+
+3. Long running times:
+   - Use the `-t` and `-s` flags to process a subset of questions
+   - Consider using smaller models for initial testing
+
+4. Implementation-specific errors:
+   - Check implementation requirements in the respective subdirectories
+   - Some implementations may require additional setup (e.g., Neo4j database for neo4j_llm_graph_builder_RAG)
+
+## STEP 7: Extending with Your Own Implementation
+
+1. Create a new directory for your implementation:
+   ```bash
+   mkdir -p src/regulations_rag_eval/rag_implementations/my_implementation
+   ```
+   ```cmd
+   mkdir src\regulations_rag_eval\rag_implementations\my_implementation
+   ```
+
+2. Implement the required files:
+   - __init__.py: Export your generate_answer function
+   - generate_answers.py: Implement the generate_answer function
+
+3. Update the configuration:
+   ```bash
+   # Edit the rag_implementation_mappings.json
+   nano config/rag_implementation_mappings.json
+   ```
+   ```cmd
+   # Edit the rag_implementation_mappings.json
+   notepad config\rag_implementation_mappings.json
+   ```
+   Add your implementation:
+   ```json
+   {
+     "my_implementation": "regulations_rag_eval.rag_implementations.my_implementation"
+   }
+   ```
+
+4. Run and evaluate your implementation:
+   ```bash
+   regulations-rag-eval run -r my_implementation
+   regulations-rag-eval evaluate -a data/my_implementation/generated_answers.json
+   ```
+   ```cmd
+   regulations-rag-eval run -r my_implementation
+   regulations-rag-eval evaluate -a data/my_implementation/generated_answers.json
+   ```
+
+## Examples of Complete Workflows
+
+### Example 1: Basic Evaluation of Naive Vector
+```bash
+cd regulation_kg_eval_main
+pip install -e .
+cp example.local.env .env
+# Edit .env with your API keys
+nano .env
+
+# Initialize the naive_rag implementation (first time only)
+export OPENAI_API_KEY=your_key_here
+python initialize_naive_vector.py
+
+# Run evaluation with first 10 questions
+regulations-rag-eval run -r naive_rag -t 10
+regulations-rag-eval evaluate -a data/naive_rag/generated_answers.json
+cat data/naive_rag/answer_evaluations.json
+
+# Calculate average score
+regulations-rag-eval analyze-scores -i naive_rag -d
+```
+```cmd
+cd regulation_kg_eval_main
+pip install -e .
+copy example.local.env .env
+# Edit .env with your API keys
+notepad .env
+
+# Initialize the naive_rag implementation (first time only)
+set OPENAI_API_KEY=your_key_here
+python initialize_naive_vector.py
+
+# Set encoding for Python to handle special characters in JSON files
+set PYTHONIOENCODING=utf-8
+regulations-rag-eval run -r naive_rag -t 10  # Run with first 10 questions
+regulations-rag-eval evaluate -a data/naive_rag/generated_answers.json
+type data\naive_rag\answer_evaluations.json
+
+# Calculate average score
+regulations-rag-eval analyze-scores -i naive_rag -d
+```
+
+### Example 2: Comparing Multiple Implementations
+```bash
+# Generate answers with different implementations
+regulations-rag-eval run -r naive_rag -t 5
+regulations-rag-eval run -r CAG -t 5
+regulations-rag-eval run -r neo4j_llm_graph_builder_RAG -t 5
+
+# Evaluate each implementation
+regulations-rag-eval evaluate -a data/naive_rag/generated_answers.json
+regulations-rag-eval evaluate -a data/CAG/generated_answers.json
+regulations-rag-eval evaluate -a data/neo4j_llm_graph_builder_RAG/generated_answers.json
+
+# Compare all implementation scores with detailed statistics
+regulations-rag-eval analyze-scores --compare --detailed
+
+# Save analysis results to a JSON file for further processing
+regulations-rag-eval analyze-scores --compare -o analysis/implementation_comparison.json
+
+# Run the example script for visual comparison
+python examples/analyze_all_scores.py
+```
+```cmd
+# First set encoding for Python to handle special characters
+set PYTHONIOENCODING=utf-8
+
+# Generate answers with different implementations
+regulations-rag-eval run -r naive_rag -t 5
+regulations-rag-eval run -r CAG -t 5
+regulations-rag-eval run -r neo4j_llm_graph_builder_RAG -t 5
+
+# Evaluate each implementation
+regulations-rag-eval evaluate -a data/naive_rag/generated_answers.json
+regulations-rag-eval evaluate -a data/CAG/generated_answers.json
+regulations-rag-eval evaluate -a data/neo4j_llm_graph_builder_RAG/generated_answers.json
+
+# Compare all implementation scores with detailed statistics
+regulations-rag-eval analyze-scores --compare --detailed
+
+# Save analysis results to a JSON file for further processing
+regulations-rag-eval analyze-scores --compare -o analysis\implementation_comparison.json
+
+# Run the example script for visual comparison
+python examples\analyze_all_scores.py
+```
+
+### Example 3: Custom Evaluation with Different Model
+```bash
+regulations-rag-eval run -r naive_rag -q custom_questions.json -o custom_answers.json
+regulations-rag-eval evaluate -a custom_answers.json -g custom_golden_answers.json -m anthropic/claude-3-opus-20240229
+```
+```cmd
+set PYTHONIOENCODING=utf-8
+regulations-rag-eval run -r naive_rag -q custom_questions.json -o custom_answers.json
+regulations-rag-eval evaluate -a custom_answers.json -g custom_golden_answers.json -m anthropic/claude-3-opus-20240229
+```

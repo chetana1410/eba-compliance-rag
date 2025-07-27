@@ -1,0 +1,636 @@
+[
+  {
+    "question": "Should an open-end investment fund be considered an obligor under Art. 178\n(1) CRR, irrespective of whether it has legal personality under a Member\nStates’ regulations on investment funds?",
+    "relevant_point_ids": [
+      "178.001"
+    ],
+    "question_hash": "b67921e32bd8a23"
+  },
+  {
+    "question": "Which conditions should direct contributions to reserves from shareholders\nmeet when assessing their conformity with the criteria contained in the last\nsubparagraph of Article 26(1) CRR?",
+    "relevant_point_ids": [
+      "026.001"
+    ],
+    "question_hash": "432d8fb52e9f98a"
+  },
+  {
+    "question": "Which set of seniority categories shall be utilised and how should they be\nranked as the basis for offsetting the gross JTD amounts of short exposures\nand long exposures within the DRC calculations for non-securitisations?",
+    "relevant_point_ids": [],
+    "question_hash": "7fd0a26da573a42"
+  },
+  {
+    "question": "How should the overall own funds requirements be calculated in a\nconsolidated situation for institutions or undertakings, for which Art.\n325b(4)(b) CRR applies, i.e. if different institutions or undertakings of the\ngroup use different currencies other than the reporting currency of the\ngroup?",
+    "relevant_point_ids": [
+      "325b.004"
+    ],
+    "question_hash": "2e029eba8d9d0aa"
+  },
+  {
+    "question": "In accordance with Article 325e of Regulation (EU) No 575/2013 (CRR), all\nthe positions of instruments with optionality (among others: calls, puts, caps,\nfloors, swap options, barrier options and exotic options) shall be subject to\nthe own funds requirements for:\na) delta risk\nb) vega risk\nc) curvature risk.\nAccording to Q&A Q&A 2571 published on 11th November 2016, perfectly\nmatching options should not be subject to own funds requirements for\nmarket risk.\nDoes this also apply to the sensitivities-based method for calculating the own\nfunds requirement for market risk specified in CRR2/CRR3?\nIf yes, does it mean that perfectly matched back-to-back bought and sold\noptions can be excluded from the calculation of the own funds requirement\nfor market risk under sensitivities-based method (delta, vega and curvature\nrisk)?",
+    "relevant_point_ids": [
+      "325e"
+    ],
+    "question_hash": "c314a510dd0f247"
+  },
+  {
+    "question": "How does the value-weighted average referred in Article 243.2.b)i) of CRR\nshould be calculated?\nShould we:\nOption A: calculate first a “Loan to Value” average and then map it to the\napplicable value-weighted average according to CRR or;\nOption B: calculate a risk weighted average calculated from each exposure\nmultiplied by its corresponding risk weight divided by the sum of the total\nexposure value?",
+    "relevant_point_ids": [
+      "243.002"
+    ],
+    "question_hash": "a08f8b787bd36f7"
+  },
+  {
+    "question": "Können sowohl der in Artikel 501 CRR genannte Faktor zur Unterstützung\nvon KMU als auch der in Artikel 501a CRR genannte Faktor zur\nUnterstützung von Infrastruktur auf eine Risikoposition angewandt werden?\nCan the supporting factor for SMEs referred to in Article 501 CRR and the\ninfrastructure supporting factor referred to in Article 501a CRR both be\napplied to an exposure?",
+    "relevant_point_ids": [
+      "501",
+      "501a"
+    ],
+    "question_hash": "ec48d1aee7fe474"
+  },
+  {
+    "question": "Are the maturity weighting of gross JTD amounts and three months floor of\nArt. 325x(3) applicable only to gross JTD amounts in cases where no\noffsetting is possible or are they applicable more generally to all gross JTD\namounts?",
+    "relevant_point_ids": [
+      "325x.003"
+    ],
+    "question_hash": "6a269a5a669a77d"
+  },
+  {
+    "question": "How should the term 'consolidated basis' be read in Article 325b CRR?\nShould permissions in accordance with that article be granted only to the\nhighest EU consolidating entity or is it possible to grant these permissions\nalso to several EU sub-consolidating entities?\nIf it is possible to apply this requirement also on a sub-consolidated basis,\nshould the offsetting of the positions only refer to undertakings included in\nsuch an entity’s sub-consolidated group?",
+    "relevant_point_ids": [
+      "325b"
+    ],
+    "question_hash": "4e8d3d987bd6156"
+  },
+  {
+    "question": "Does Article 162(2)(a) of Regulation (EU) No 575/2013 (CRR) apply to\nexposures in the form of undrawn credit facilities as the only contractual\ncash flow payments for the undrawn credit facility are fee-related?",
+    "relevant_point_ids": [
+      "162.002"
+    ],
+    "question_hash": "d20994f09e140f9"
+  },
+  {
+    "question": "Should only instruments that are options be subject vega and curvature own\nfunds requirements, or they may apply also to instruments that lack an\nexercisable optionality?",
+    "relevant_point_ids": [],
+    "question_hash": "84bead40991379a"
+  },
+  {
+    "question": "In case a default occurred on a debt obligation originated before 26 April\n2019, and if the originating bank grants the defaulted obligor a forbearance\nmeasure in the form of a partial refinancing of a debt obligation to cover past\ndue payments on the original debt obligation and thus effectively increases\nthe bank’s total exposure towards the obligor, will the original debt\nobligation, which has not been increased, cease to be subject to the\nderogation provided for in Article 469a(1) CRR?",
+    "relevant_point_ids": [
+      "469a.001"
+    ],
+    "question_hash": "40c618c5e9ae110"
+  },
+  {
+    "question": "CRR Art. 274 (3) states that the exposure value of a netting set that is\nsubject to a margin agreement may be capped at the exposure value of the\nsame netting set assuming it would not be subject to a margin agreement. In\nthis context the question arises if variation margin that the institution has\nalready received or posted should be disregarded in order to determine this\ncap.",
+    "relevant_point_ids": [
+      "274.003"
+    ],
+    "question_hash": "5db17d9ef0c3af7"
+  },
+  {
+    "question": "Does an institution which is a client of a clearing member or a lower-level\nclient in a multi-level client structure (institution > intermediary/higher-level\nclient > clearing member > central counterparty) need to verify that Art.\n305 (2) or (3) conditions are met at every level of the structure to apply Art.\n306 (1) CRR, which might also entail zeroing out the exposure value arising\nfrom the transaction between the institution and the clearing member or the\nhigher-level client if the institution is acting as a financial intermediary\nbetween a client and a CCP?\nGuidance is sought on 4 possible clearing flows:\nIndirect clearing flows (clients’ transactions and institution’s own\ntransactions)\n1. Client > institution > clearing member > CCP\n2. Institution > clearing member > CCP\nMulti-level indirect clearing flows (clients’ transactions and institution’s own\ntransactions)\n3. Client > institution > intermediary/higher-level client > clearing\nmember > CCP\n4. Institution > intermediary/higher-level client > clearing member >\nCCP",
+    "relevant_point_ids": [
+      "305.002",
+      "306.001"
+    ],
+    "question_hash": "75ff43fc5211f46"
+  },
+  {
+    "question": "Can the Share Premium be recognised as CET1 capital if there are features\npreventing its use to absorb losses?",
+    "relevant_point_ids": [],
+    "question_hash": "18beb2e84bf74a2"
+  },
+  {
+    "question": "Shall the transferor of an operation like the one described below include for\ncredit risk capital requirements purposes both the exposure value of the\nsecurities sold (asset item) and the financing position (even if it is a liability\nitem), or just the asset item of the securities sold?\nAccording to Article 111(2) CRR the exposure value of any repurchase\ntransaction shall be included and be calculated either in accordance with\nChapter 4 or Chapter 6 of Title II: does it also refers to the financing position\nof the transferor (even if it is a liability item)?\nWhat is the correct treatment for the financing position of the transferor?\nare securities also to be included as an exposure value in case the Financial\nCollateral Simple Method is used?",
+    "relevant_point_ids": [
+      "111.002"
+    ],
+    "question_hash": "cae183486880ac1"
+  },
+  {
+    "question": "1. May Article 500a be applied to exposure types other than government\nbond?\n2. May Article 500a paragraph 1 also be applied to indirect exposures,\nwhen the obligor is classified different from central governments or\ncentral banks? If so, the currency constraints imposed by the article\n500a have to be referred to the unfunded credit protection of a central\ngovernments or central banks?",
+    "relevant_point_ids": [
+      "500a"
+    ],
+    "question_hash": "6548d897621680a"
+  },
+  {
+    "question": "Could the institution use the information from the CIU management\ncompany about the notional amount of derivative positions of CIU to assess\nthe value of those derivatives in calculating risk-weighted exposure amount\nof CIU when using the mandate based approach in accordance with Article\n132a(2) CRR?\nIn particular, is the institution allowed to use the information from the CIU\nmanagement company, that CIU doesn’t have derivatives in their portfolio\nand assess the value of those derivatives as zero in calculating risk-weighted\nexposure amount of CIU when using the mandate based approach in\naccordance with Article 132a(2) CRR?",
+    "relevant_point_ids": [
+      "132a.002"
+    ],
+    "question_hash": "12e5318414848d2"
+  },
+  {
+    "question": "In the first subparagraph of Article 325m of Regulation (EU) No 575/2013\n(CRR) it is stated that institutions apply a risk factor per issuer and per\nmaturity, irrespective of whether these credit spread rates of the issuer\nderive from debt instruments or credit default swaps. However, the\ncorrelation factor linked to the basis risk is present in article 325ai of (CRR).\nMust this value always be equal to 1 since there is no longer a division\nbetween the two types of curve as regards risk factors or does this basis risk\nrefer to another type of risk? In this second case to which?",
+    "relevant_point_ids": [
+      "325m",
+      "325ai"
+    ],
+    "question_hash": "d1872336d65e597"
+  },
+  {
+    "question": "Is the own estimation of conversion factors for undrawn credit lines\nconsidered relevant for binding mortgage offers, with a maturity of less than\none year?",
+    "relevant_point_ids": [],
+    "question_hash": "d1b57483fb087c3"
+  },
+  {
+    "question": "Is a reversal of the daily transfer from the original accounts to the target\naccount, as contractually agreed with the customer, at the next business day\ncompliant with the requirements for net reporting of cash pooling\narrangements as set out in Article 429b (2) CRR?",
+    "relevant_point_ids": [
+      "429b.002"
+    ],
+    "question_hash": "bc80064e51f52ea"
+  },
+  {
+    "question": "According to the validation rule v11942_m it has been stated that {F 18.00.d,\nr0070, c0200} + {F 18.00.c, r0070, c0210} <= {F 18.00.a, r0070, c0060} +\n{F 18.00.b, r0070, c0150}. However, in our case net amount of total gross\ncarrying amount of non-performing loans (NPL) + Accumulated Impairment\nis not higher than the amount of total collaterals and financial guarantees\nreceived for these loans. Since this validation ID’s severity is being stated as\n‘warning’ can we proceed with the actual amounts and report with this\nsituation?\n\n22 of 35",
+    "relevant_point_ids": [],
+    "question_hash": "da7470d7b4d341e"
+  },
+  {
+    "question": "1. For the purposes of Article 37(b) CRR, are the significant investments of\nthe institution limited to the significant investments in financial sector\nentities (FSE) or should they include all significant investments (i.e. also\nsignificant investments in entities that are not financial sector entities)?\n\n23 of 35\n\n2. Should Article 37(b) CRR be applied only when the significant investments\noutside the prudential perimeter are valued for prudential purposes using\nthe equity method or should it be applied also when the significant\ninvestments are valued for prudential purposes at historical cost?",
+    "relevant_point_ids": [
+      "037"
+    ],
+    "question_hash": "881b39d738133e2"
+  },
+  {
+    "question": "Regarding minority interests calculations:\n1) Should the Common Equity Tier I items of the subsidiary referred to in\nArticle 81(1) and 84(1)(a) CRR be calculated according to the local\naccounting framework or according to the consolidated applicable\naccounting framework, when the two frameworks differ?\n2) Should the Other Comprehensive Income that arises from the currency\nconversion of the local financial statements to the Group’s reference\ncurrency be considered in the minority interest computation?",
+    "relevant_point_ids": [
+      "081.001"
+    ],
+    "question_hash": "9196d6e6a73b905"
+  },
+  {
+    "question": "Should an exposure to an SPE transaction with underlying assets and a\nsingle class of debt (pass-through structure), which does not fulfil the\ncriteria of Securitisation, be recognised to determine the risk weight of the\nexposure by applying a look-through approach to the underlying assets as\nsuggested by Article 390(7) CRR regarding large exposures treatment?\nOr should such exposure be treated as a (unrated) corporate exposure in\naccordance with Article 122 CRR?",
+    "relevant_point_ids": [
+      "122",
+      "390.007"
+    ],
+    "question_hash": "8e24dac0e839714"
+  },
+  {
+    "question": "Should the purchase of credit receivables be classified as 'granting credits'\nwithin the meaning of CRR's definition of credit institution? And if so, would\na subject (a natural or legal person) whose activity is that of repeatedly\npurchasing credit receivables from a credit institution and concurrently\ntaking deposits or other repayable funds from public, be required to obtain a\nlicense under Article 8 CRD?",
+    "relevant_point_ids": [
+      "008"
+    ],
+    "question_hash": "f64267eb14dd18e"
+  },
+  {
+    "question": "How to classify an exposures, that is secured by mortgages on residential\nproperty and, according to the Article 124(2) of Regulation (EU) No.\n575/2013 (CRR), is assigned a 150% risk weight and, at the same time,\nqualifies as 'Exposures in default' and meets the criteria listed in Article\n127(1)(b) or (3) CRR, to assign it a 100 % risk weight?",
+    "relevant_point_ids": [
+      "124.002",
+      "127.001"
+    ],
+    "question_hash": "cc1d46a30e320d6"
+  },
+  {
+    "question": "How should be treated shares that are bought and specifically affected to\nhedge equity-settled share-based payments (payments in equity\ninstruments)?",
+    "relevant_point_ids": [],
+    "question_hash": "75b6cb1f42c6ade"
+  },
+  {
+    "question": "In an earlier issued answer (Q&A 2020_5279), it was advised that cash\ncollaterals on derivatives should be reported as part of 'Financial assets at\namortised cost' [F 01.01, r183, c010].\nShould cash collaterals on other products, for instance reverse repurchase\nagreements and repurchase agreements (repos & reverse repos) be treated\nsimilarly?",
+    "relevant_point_ids": [],
+    "question_hash": "30ff49bc3d5578b"
+  },
+  {
+    "question": "Should a credit institution accessing the overnight deposit facility via a\nnational central bank (NCB) treat its credit exposure as being to the relevant\nNCB pursuant to Capital Requirements Regulation (CRR) Article 114(4), or\nto the European Central Bank (ECB) pursuant to CRR Article 114(3)?",
+    "relevant_point_ids": [
+      "114.003",
+      "114.004"
+    ],
+    "question_hash": "b89fe42570be5cb"
+  },
+  {
+    "question": "For risk classification as off-balance sheet item according to Annex I CRR, is\nthe original maturity longer than one year where non-retail credit lines until\nfurther notice (i.e. no fixed maturity) may be cancelled with 3 months\nadvance notification period and even immediately in case the borrower\nbecoming delinquent or declaring bankruptcy?",
+    "relevant_point_ids": [],
+    "question_hash": "a8994080e3da324"
+  },
+  {
+    "question": "What treatment should be applied on excess of collaterals for the NSFR\ncalculation?",
+    "relevant_point_ids": [],
+    "question_hash": "2ad29b91cf50001"
+  },
+  {
+    "question": "Should software be deducted from own funds net of the whole amount of tax\ndeductible amortisation that will be recorded throughout their life?",
+    "relevant_point_ids": [],
+    "question_hash": "557de0d41ca7e10"
+  },
+  {
+    "question": "Shall a floor equal to 1 - according to Article 162(2)(b)CRR- be applied also\nfor derivatives that are not subject to a master netting agreement?\nFor example, if you have an exposure to a counterparty consisting of a single\nderivative not subject to a master netting agreement and expiring in 6\nmonths, is the effective maturity to be entered equal to 0.5 or 1?",
+    "relevant_point_ids": [
+      "162.002"
+    ],
+    "question_hash": "4e644a9d33d39b7"
+  },
+  {
+    "question": "Does Article 114(4) of CRR apply to both on-balance sheet and off-balance\nsheet liabilities (including the forward leg of an FX swap) in the same\ndomestic currency and at least the same amount as the exposure to the\ncentral government or central bank (on- or off- balance sheet exposures)?",
+    "relevant_point_ids": [
+      "114.004"
+    ],
+    "question_hash": "48fa3ed3d7ec0e2"
+  },
+  {
+    "question": "Do “private equity exposures in sufficiently diversified portfolios” eligible to\na Risk Weight (RW) of 190% in simple risk weight approach in Article 155(2)\nand a PD of 65% in the PD/LGD approach in article 155(3) refer to any nonlisted equity instrument and/or shares in a CIU or units in a CIU for which\nthe underlying exposures are non-listed equity instruments, provided that\nthey are part of a sufficiently diversified portfolio?",
+    "relevant_point_ids": [
+      "155.002",
+      "155.003"
+    ],
+    "question_hash": "eb4767733483799"
+  },
+  {
+    "question": "Is an institution required to obtain competent authority’s permission for\ndelta calculation internal model in the situation when the position in option\nis being closed back-to-back (additional adjustments of closing position due\nto daily change of the position being closed) on a weekly basis?",
+    "relevant_point_ids": [],
+    "question_hash": "ec429a1de66cc1e"
+  },
+  {
+    "question": "Shall exposures towards Member States’ central governments and central\nbanks denominated in the domestic currency of that central government and\ncentral bank be given a 0% risk weight if they are funded by equity\ndenominated in the same currency?",
+    "relevant_point_ids": [],
+    "question_hash": "acaa563679c7846"
+  },
+  {
+    "question": "Should not the investment of an institution into a closed-ended CIU which\nhas been marketed in accordance with Article 42 of AIFMD, but is not\nmarketed anymore due to the end of its marketing phase, remain eligible to\napply the look-through to the underlying exposures of the CIU, provided the\nother relevant conditions for looking-through continue to be met?",
+    "relevant_point_ids": [
+      "042"
+    ],
+    "question_hash": "feb26d6f7bea757"
+  },
+  {
+    "question": "Do exposures related to cash on Nostro / correspondent bank accounts (i.e.,\nBank’s cash held by a third party institution acting as a service provider for\npayment and settlement purposes) qualify for a 0% risk weight (equivalent to\ncash and cash balances at central banks) in both Standardized and IRB\napproach according to articles 134(3) and 156 (a), respectively?",
+    "relevant_point_ids": [],
+    "question_hash": "a60f24e8c17ce3d"
+  },
+  {
+    "question": "In which class according to annex 1 would guarantees for loans and\nguarantees for performance bonds fit?\nIf a bank is a guarantor for another bank's transaction, where some trade\nfinance transaction, like performance bond, was issued, how should the bank\nacting as guarantor classify the risk according to annex 1?\nIs it possible to apply Annex 1 point 1(a) or 3(a)(ii) or which else?\nin case of a transaction, where the bank in FI is offering a guarantee for the\ntransaction, where another bank has issued a working capital loan, is it\ncorrect to refer to point 1(a)?\n\n3 of 30",
+    "relevant_point_ids": [],
+    "question_hash": "27cd3686acf9384"
+  },
+  {
+    "question": "May a transaction towards an entity of the group be excluded from the CVA\nown funds requirements under Article 382(4)(b) CRR, when such entity is\nestablished in a third country, and for that third country, an equivalence\ndecision under Article 13(2) of Regulation (EU) No 648/2012 has been\nadopted by the Commission only in relation to certain part of respective\nrequirements?",
+    "relevant_point_ids": [
+      "382.004",
+      "013.002"
+    ],
+    "question_hash": "9d419b8b106e1b3"
+  },
+  {
+    "question": "What should be the available stable funding factor applicable to current tax\nliabilities?",
+    "relevant_point_ids": [],
+    "question_hash": "270f14ff4d0f58c"
+  },
+  {
+    "question": "What should be the available stable funding factor applicable to payables\n(accruals)?\n\n8 of 30",
+    "relevant_point_ids": [],
+    "question_hash": "56be858687bc721"
+  },
+  {
+    "question": "Asset encumbrance in the NSFR\nHow to determine the residual maturity of the encumbrance in a cover pool\nif it derives from covered bonds with different maturity?",
+    "relevant_point_ids": [],
+    "question_hash": "84e6f11ede05cbc"
+  },
+  {
+    "question": "Does Article 208(3)(a) CRR require institutions to monitor property values of\nall commercial properties on a yearly basis, regardless of whether they can\nqualify as eligible collateral for credit risk mitigation?",
+    "relevant_point_ids": [
+      "208.003"
+    ],
+    "question_hash": "e57b5e3e331a15a"
+  },
+  {
+    "question": "Where a national competent authority has instructed an institution to hold a\npillar 2 liquidity add-on, should the pillar add-on amount be treated as an\nencumbered asset for the purpose of NSFR reporting?",
+    "relevant_point_ids": [],
+    "question_hash": "9a8795fa1e744b5"
+  },
+  {
+    "question": "Should the multilateral development banks (MDB) which are not included in\nArticle 117(2) CRR be treated as institution?\nIf the head office of that MDB is in a non-equivalent jurisdiction Article\n107(3), should the exposure to MDB be treated as corporate?",
+    "relevant_point_ids": [
+      "117.002",
+      "107.003"
+    ],
+    "question_hash": "1478f4bf7a01518"
+  },
+  {
+    "question": "How should the vega intrabucket correlation for the FX risk class be\ncomputed giving that the delta intra bucket correlation ρ_kl^ is not defined?",
+    "relevant_point_ids": [],
+    "question_hash": "b4150d63ab0adec"
+  },
+  {
+    "question": "Should shares pledged to the issuing credit institution as collateral to secure\na loan granted by the same credit institution to a customer be deducted from\nCommon Equity Tier 1 items where, in case of default of the customer, the\ncredit institution has the option to either appropriate the collateral or force\nits sale, bearing in mind that this does not affect the existence of a\nrelationship between the value of the loan and the value of the shares?",
+    "relevant_point_ids": [],
+    "question_hash": "cccf53e37397825"
+  },
+  {
+    "question": "Where a natural person’s business activities meet the criteria for an SME,\ndoes the SME supporting factor according to Article 501 CRR also apply to\nexposures from financing private investments of this natural person not\ndirectly related to that business?",
+    "relevant_point_ids": [
+      "501"
+    ],
+    "question_hash": "576355c9e5e2d8c"
+  },
+  {
+    "question": "According to article 325a, paragrhap 2, is the size of all non-trading book\npositions that are subject to foreign exchange risk equal to the higher\nbetween the total of the net short positions and the total of the net long\npositions computed according article 352 or is it the sum of absolute value of\ntotal of the net short positions and the total of the net long positions?",
+    "relevant_point_ids": [
+      "352",
+      "325a"
+    ],
+    "question_hash": "14c95aca04cef0c"
+  },
+  {
+    "question": "In question 2013_544, the EBA stated that for Tier 2 instruments, Article\n63(j) CRR, in conjunction with Article 77 of the CRR, stipulates that an\ninstitution must not effect the call, redemption, repayment or repurchase\nprior to the date of an instrument's contractual maturity without the prior\npermission of the competent authority, and that such instruments should\ntherefore contain an explicit reference to these regulatory conditions in their\nterms.\nArticle 72b(2)(j) CRR states that liabilities may only be called, redeemed,\nrepaid or repurchased early where the conditions set out in Articles 77 and\n78a are met. As there is no explicit positive obligation in the legislation to\ninclude a reference to the need for resolution authority approval, should\neligible liabilities instruments contain an explicit reference to these\nregulatory conditions in their terms?",
+    "relevant_point_ids": [
+      "063",
+      "077",
+      "072b.002"
+    ],
+    "question_hash": "592197b62c1b8cf"
+  },
+  {
+    "question": "Are undertakings other than institutions, financial institutions or ancillary\nservices undertakings unconditionally included in prudential consolidation\nby effect of Article 18(7) of Regulation (EU) No 575/2013 (CRR) and its\nrequirement to apply the equity method, without being subject to conditions\nas is the case for full or proportional consolidation according to Article 18(8),\nor to the thresholds laid down in Article 19(1)?\n\n23 of 30",
+    "relevant_point_ids": [
+      "018.008",
+      "019.001",
+      "018.007"
+    ],
+    "question_hash": "22b3566a1a7fd14"
+  },
+  {
+    "question": "The last part of the first subparagraph of Article 500 states that \"The\nadjustment referred to in the first subparagraph [(i.e. Adjustment for\nmassive disposals)] may only be carried out until 28 June 2022 and its effects\nmay last for as long as the corresponding exposures are included in the\ninstitution's own LGD estimates\".\nHow is 28 June 2022 to be interpreted? Is it a repetition of point (b) of\nsubparagraph 1 (i.e. \"the dates of the disposals of defaulted exposures are\nafter 23 November 2016 but not later than 28 June 2022\") or it represents\nthe cut-off date by which the adjustment can be estimated?",
+    "relevant_point_ids": [
+      "500"
+    ],
+    "question_hash": "9858df5dc35c753"
+  },
+  {
+    "question": "Is a clause in provisions governing the capital instruments allowing that the\nparties (issuer and the investor) may mutually agree to have the issuer\nrepay, at any time, but not before five years after the date of issuance, totally\nor partially, the principal amount of the capital instrument compliant with\nthe eligibility criteria for own funds instruments?",
+    "relevant_point_ids": [],
+    "question_hash": "82210e84a90715d"
+  },
+  {
+    "question": "How is the parameter “ρ_kl (option maturity)” concretely determined? Does\nthe calculation take place at the level of a single option or at the level of\nweighted net sensitivity, which may consist of several options?",
+    "relevant_point_ids": [],
+    "question_hash": "85446ac2e5b114a"
+  },
+  {
+    "question": "According to Article 352(3) CRR, which requirements have to be met in\norder to consider the approach as applied consistently?",
+    "relevant_point_ids": [
+      "352.003"
+    ],
+    "question_hash": "a308c5de79d2edc"
+  },
+  {
+    "question": "Could you clarify if non-performing exposures underlying a CIU should be\nsubject to deductions in accordance with point (m) of Article 36(1) of CRR\nwhen using the look-through approach in accordance with Article 132a(1) of\nCRR or the mandate based approach in accordance with Article 132a(2) of\nCRR?",
+    "relevant_point_ids": [
+      "132a.002",
+      "132a.001",
+      "036.001"
+    ],
+    "question_hash": "8e2f087034856d0"
+  },
+  {
+    "question": "Which formula shall or may be applied in case of a switch from multiple\nnetting sets to a single netting set?\nIs it allowed to continue application of Formula 3 on single netting sets,\n- if the single netting set is covered by a margin agreement, which allows\ncoverage for multiple netting sets?\n- If the singularity of the netting set is just temporary, eg due to the fact that\nfurther transactions have been closed or not yet opened?",
+    "relevant_point_ids": [],
+    "question_hash": "94addb5fd6dc56c"
+  },
+  {
+    "question": "1. Can a put option which is subject to certain conditions qualify as a short\nposition for the purposes of Article 45 CRR provided that (i) the fulfilment of\nthe conditions depends only on the holder of the put and (ii) all the other\nconditions mentioned in Article 45 are met?\n2. In case a bank has on its banking book a holding of CET1 instruments in a\nfinancial sector entity and it buys an unconditional put option with the same\nunderlying, which amount should be netted, either the notional value (strike\nprice multiplied by the number of underlying instruments of the option) or\nthe market value of the put, provided that all the other conditions mentioned\nin Article 45 CRR are met?\n3. In case the answer to question 2 is the notional value, if a put option does\nqualify as short position for the purposes of Article 45 CRR, how should this\nshort position be treated for the purposes of credit risk requirements?",
+    "relevant_point_ids": [
+      "045"
+    ],
+    "question_hash": "e6df4bf0efda460"
+  },
+  {
+    "question": "8 of 30\n\nAccording to Article 4(1)(85) and (86) of Regulation (EU) No 575/2013 CRR,\n\nare all proprietary positions and all positions arising from client servicing\nand market making trading book positions, irrespective if they are held for\nshort term or not?",
+    "relevant_point_ids": [
+      "004.001"
+    ],
+    "question_hash": "fdea8b1de77fb88"
+  },
+  {
+    "question": "Shall the LGD regulatory floor be applied at the territory level of the\nMember state to exposures secured by property located in the territory of\nthat Member state (Article 164(7) CRR) for the calculation of own funds\nrequirements at any level, i.e. individual and/or consolidated level?",
+    "relevant_point_ids": [
+      "164.007"
+    ],
+    "question_hash": "008ca21ce4f6249"
+  },
+  {
+    "question": "To calculate the gamma correlation to be used for the curvature risk in the\nlow and high scenarios, should institutions at first square the gamma\ncorrelation used for the delta risk and then apply the formulas provided for\nin Article 325h CRR or vice versa?",
+    "relevant_point_ids": [
+      "325h"
+    ],
+    "question_hash": "1ac6732facac34e"
+  },
+  {
+    "question": "For an institution that has received permission to apply Article 49(1) CRR,\nhas a significant investment below or equal to the threshold indicated in\nArticle 48(1) and 48(2) (exempted from being deducted from Common Equity\nTier 1 according to Article 49(1), are the amounts of holdings in insurance\nundertakings, to be risk-weighted at 250% according to Article 48(4) and the\namounts of such holdings that are above this threshold risk-weighted in line\nwith Article 49(4)?",
+    "relevant_point_ids": [
+      "048.004",
+      "049.001",
+      "049.004",
+      "048.001"
+    ],
+    "question_hash": "aa8289220fea720"
+  },
+  {
+    "question": "A supervised institution has entered a reverse repo with a financial\ncounterparty which features an early termination option exercisable at the\nsupervised institution’s discretion. In order to be able to map the reverse\nrepo on the option date for the purpose of NSFR - RSF calculation, how are\nthe supervised institution and the competent authorities supposed to assess\nthe reputational factors that may limit the institution’s ability to exercise the\noption? [ref. Article 428q 3.]",
+    "relevant_point_ids": [
+      "428q"
+    ],
+    "question_hash": "29badbc77ca4e59"
+  },
+  {
+    "question": "Where a loan is made to a non-financial corporate, and the loan is\nguaranteed by a financial counterparty such that the credit exposure on the\nloan is viewed by the firm as an exposure to the guarantor (financial\ncounterparty), can the 10% RSF applicable under CRR Article 428v be\napplied to such a transaction?",
+    "relevant_point_ids": [
+      "428v"
+    ],
+    "question_hash": "b6d8cd5f78b1bcb"
+  },
+  {
+    "question": "18 of 30\n\nHow is the „original maturity” identified for items in CRR Annex 1 (2)(b)(ii)?",
+    "relevant_point_ids": [],
+    "question_hash": "45042b65c51a806"
+  },
+  {
+    "question": "Is the prior permission of the competent authority needed at individual level\nof a subsidiary to include in the consolidated CET1 items the interim profits\nof that subsidiary attributable to minority shareholders?",
+    "relevant_point_ids": [],
+    "question_hash": "3ee642d969d5df2"
+  },
+  {
+    "question": "1. If the replacement reference rate proposed in the context of a change to a\ndifferent benchmark rate, such as in the context of LIBOR transition, could\nresult in a greater credit spread on an own funds instrument, whether as a\nconsequence of a one-off adjustment to the credit spread at the time the\nreplacement reference rate is implemented or as a consequence of an\nagreement to reset the credit spread at any future date or dates (whether or\nnot in the context of any call option dates), would this potential outcome be\nconsidered to be a feature that provides an incentive to redeem for the\npurposes of Article 63(h) CRR?\n\n2. If the replacement interest rate proposed by an issuer for its LIBOR-linked\nfloating rate Tier 2 own funds instruments is a rate which is based on the\ncredit standing of the issuer or its parent undertaking (or any intermediate\nparent undertaking), for example through the credit spread incorporated\nwithin a coupon derived from an overnight, or averaged overnight, risk-free\nrate, would that replacement rate of interest result in those instruments\nfailing to satisfy the criterion specified in Article 63(m) CRR?",
+    "relevant_point_ids": [
+      "063"
+    ],
+    "question_hash": "9ff9a08cf3f0139"
+  },
+  {
+    "question": "Question 1:\nHas the mandatory substitution approach according to Article 403 CRR to be\napplied when an institution uses the FCCM? If yes, what is the amount that\nthe institution shall assign to the protection provider/collateral issuer?\nQuestion 2:\nIn the case of exposures arising from SFTs referred to in Article 401(2)\nsecond paragraph CRR, has the mandatory substitution approach according\nto Article 403 CRR to be applied when an institution applies master netting\nagreements, together with either the FCCM or IMM as referred to in Articles\n220 CRR and 221 CRR?\nIf yes, what is the exposure amount that shall be assigned to the collateral\nissuer?\nQuestion 3:\nAlso regarding exposures arising from SFTs, has the mandatory substitution\napproach according to Article 403 CRR to be applied when an institution\napplies IMM as referred to in Section 6 of Chapter 6 of Title II of Part Three\nCRR?\nIf yes, what is the exposure amount that shall be assigned to the collateral\nissuer?\nQuestion 4:\nDoes an institution have to use a credit risk mitigation technique for large\nexposure purposes when it has used it for calculating own funds\nrequirements, or can an institution renounce, for large exposure purposes,\napplying a credit risk mitigation that it has used for calculating own funds\nrequirements?\nQuestion 5:\nDoes an institution also have to apply the substitution approach, for large\nexposure purposes, in those cases where the collateral is not taken into\n\n25 of 30\n\naccount for calculating own funds requirements?",
+    "relevant_point_ids": [
+      "401.002",
+      "403"
+    ],
+    "question_hash": "f36fd803e873d8f"
+  },
+  {
+    "question": "Can leasing contracts (e.g. car leasing), which are accounted for as tangible\nfixed assets according to national accounting standards, be treated in the\nNSFR according to the actual inflow/cash flow?",
+    "relevant_point_ids": [],
+    "question_hash": "deb60bccb0a3377"
+  },
+  {
+    "question": "Do the terms “aggregated liabilities” and “total liabilities” used in the\ncalculation of the 5% threshold for multi-currency reporting, refer to on-B/S\n\n4 of 29\n\nliabilities in accordance with the applicable accounting framework referring\nto Article 24 CRR only or does it include contingent liabilities booked in the\noff-B/S as well?",
+    "relevant_point_ids": [
+      "024"
+    ],
+    "question_hash": "de96c820462d9b4"
+  },
+  {
+    "question": "When an institution applies the look-through approach to units or shares of\nCollective Investment Undertaking (CIU) under the IRB approach and where\nthe institution is allowed to use IRB advanced approach for the underlying\ncredit exposures of the CIU in accordance with Article 148 CRR, can the\ninstitution still use the standard approach for those underlying exposures of\nwhich obligors are not internally rated and/or for which the information\nrequired for own LGD estimation are not available to the institution?",
+    "relevant_point_ids": [
+      "148"
+    ],
+    "question_hash": "bd573b2ceeeeee9"
+  },
+  {
+    "question": "Should the haircut due to minimum level of over-collateralisation be\nreflected in the calculation of collateral value with or without the deducted\nprior claims? Besides market value or mortgage lending value is there any\nother value that could be considered for the calculation purposes?",
+    "relevant_point_ids": [],
+    "question_hash": "bf12ae3134342a6"
+  },
+  {
+    "question": "Which LGD should be applied for third country covered bonds (issued under\na dedicated legal framework) which are not eligible for the same LGD as\nUCITS 52(4)?",
+    "relevant_point_ids": [],
+    "question_hash": "b99631cff9fc0db"
+  },
+  {
+    "question": "In the context of Article 18(7) CRR, where an institutions holds a\nparticipation in another undertaking that is not an institution, financial\ninstitution or ancillary services undertaking, shall the default treatment for\nthis participation be the equity method or shall the valuation be affected in\naccordance with the applicable accounting framework (Article 24(1) CRR), if\nthat would result in a different measurement base?",
+    "relevant_point_ids": [
+      "018.007",
+      "024.001"
+    ],
+    "question_hash": "6e73c430392e74f"
+  },
+  {
+    "question": "When it comes to subsidiaries which are institutions or investments firms\nestablished in third countries, are minority interests eligible for the purpose\nof their recognition in prudential own funds as per Article 81 (for CET1) or\nArticle 82 (for AT1 and T2)?",
+    "relevant_point_ids": [
+      "081",
+      "082"
+    ],
+    "question_hash": "9b95bdef607da1e"
+  },
+  {
+    "question": "Can the leverage ratio exemption related to the passing-through of\npromotional loans to other credit institutions (Article 429a(1)(e) CRR) be\napplied if an institution which is not a public development credit institution\n(Article 429a(2) CRR) but an entity set up by the central government,\nregional government or local authority of a Member State would issue\npromotional loans (Article 429a(3) CRR) through credit institutions and\nmatch these exposures by covered bonds on the liability side, under the\n\n18 of 29\n\nsame terms and conditions?",
+    "relevant_point_ids": [
+      "429a.002",
+      "429a.001",
+      "429a.003"
+    ],
+    "question_hash": "9f1b02355bdaef8"
+  },
+  {
+    "question": "How is the RWA is calculated for the undrawn amount of a partially\ncollateralised loan?",
+    "relevant_point_ids": [],
+    "question_hash": "c6b957b2f997815"
+  },
+  {
+    "question": "If an institution has an exposure to a third country which has supervisory\nand regulatory arrangements at least equivalent to those applied in the\nUnion (such as Turkey) but do not have fully corresponding liabilities\ndenominated in that currency to cover the entire exposure, what risk weight\nfor the credit risk should assigned to the exposure of this country?",
+    "relevant_point_ids": [],
+    "question_hash": "af62148035391e0"
+  },
+  {
+    "question": "Are “top ups” a “client activity” as defined in Regulation (EU) No 575/2013\nof the European Parliament and of the Council of 26 June 2013 on prudential\nrequirements for credit institutions and investment firms and amending\nRegulation (EU) No 648/2012 (herein ‘CRR')?\nHow “unexpected” should they be interpreted in the modern payments\nenvironment?",
+    "relevant_point_ids": [],
+    "question_hash": "eb04f7ad3cf8b9d"
+  },
+  {
+    "question": "Does Article 428h (1) (c) of regulation 2019/876, amending Regulation No\n575/2013, imply that the counterparty necessarily must be a bank?\nMore specifically, would this condition also be met if the counterparty is a\n\n25 of 29\n\nprivate limited liabilities company, which according to Regulation 575/2013\nis not required to apply the NSFR?",
+    "relevant_point_ids": [
+      "428h.001"
+    ],
+    "question_hash": "2ba73378a5d5083"
+  },
+  {
+    "question": "Is it mandatory pursuant to Article 124(5) CRR for an institution in another\nmember state to apply national decisions, which purport to be released\npursuant to Article 124(2) CRR, but are not published on the EBA website\nunder Rules and Guidance?\nFurthermore, if such national decisions are not published under Rules and\nGuidance, but e.g. under Options and national discretions only, is it\nmandatory that institutions from other member states apply such decision\npursuant to Article 124(5) CRR?",
+    "relevant_point_ids": [
+      "124.002",
+      "124.005"
+    ],
+    "question_hash": "6d8e71beb049d8f"
+  },
+  {
+    "question": "May the look-through approach be applied for exposures in Notes issued by a\nspecial purpose vehicle, with no tranches, - which is unclear whether it\nqualifies as an undertaking for collective investment according to the\napplicable national law -, where the paid out of the each Note are the net\nproceeds of the loan receivables portfolio allocated to such Note (provided\nthe additional requirements set for the look through approach are duly met)?",
+    "relevant_point_ids": [],
+    "question_hash": "0a6a9f65c8f43b1"
+  },
+  {
+    "question": "Does a short (long) position on an over-the-counter derivative on a bond/\nequity (single name/index/basket) underlying (such as a total return swap\n(TRS), equity swap, asset swap, etc) net off against a long (short) position in\nits bond/equity underlying as long as the bond/equity (single\nname/index/basket) underlying of the derivative contract is the same as the\nbond/equity in which the long (short) position exists?",
+    "relevant_point_ids": [],
+    "question_hash": "86c91f18793dd41"
+  },
+  {
+    "question": "A) Can you please clarify whether the 10%/5% threshold to define materiality\nfor “exposure classes” are valid also as for “types of exposures”? In case not,\ncan you please specify which thresholds should be considered for the\nabovementioned purpose?\nB) As for the materiality ratio to be compared against the thresholds can you\nplease clarify how it should be computed with reference to the following\npoints:\n1. Should the numerator include only the exposures for which the application\nfor PPU is being sought under Article 150 (1) (c) by excluding exposures for\nwhich PPU has already been granted pursuant other points of Art 150 (1)\nand exposures not to be included in the calculation of RWA for equity\nexposure pursuant to Art. 155 (1) (i.e. Equity exposures risk weighted at\n250% in accordance with Art. 48 (4) of Reg. EU 575/2013 and those\ndeducted from CET1 in accordance with Part Two of Reg. EU 575/2013)?\n2. Should the ratio be computed only at solo level or both at solo and\nconsolidated level, in case an application is limited to only one Legal Entity\n\n5 of 33\n\n(LE) of a Large Group?",
+    "relevant_point_ids": [
+      "150.001",
+      "048.004",
+      "155.001"
+    ],
+    "question_hash": "d035d977137e8f1"
+  },
+  {
+    "question": "6 of 33\n\nShould an institution that has received the permission of the competent\nauthority to use own LGDs for exposures to corporates, apply the formula in\nArticle 162(2)(a) CRR, for both fixed interest rate and variable interest rate\nloans, where no change of the cash flow timing is applicable?",
+    "relevant_point_ids": [
+      "162.002"
+    ],
+    "question_hash": "3d63a6a7bc7e9fa"
+  },
+  {
+    "question": "How should a credit institution - with the prior permission to apply the\nstandardised approach permanent partial use (PPU) ex Article 150 CRR for\nequity exposures - calculate the threshold as per Article 150(2) CRR?\nHow is the materiality ratio computed? In particular:\n\n8 of 33\n\n1. Should the numerator include only the exposures for which the\napplication for PPU is being sought under Article 150(1)(c) CRR by\nexcluding exposures for which PPU has already been granted\npursuant other points of Article 150(1) and exposures not to be\nincluded in the calculation of RWA for equity exposure pursuant to\nArticle 155(1) (i.e. Equity exposures risk weighted at 250% in\naccordance with Article 48(4) of Reg. EU 575/2013 and those\ndeducted from CET1 in accordance with Part Two of Reg. EU\n575/2013)?\n2. Should the ratio be computed only at solo level or both at solo and\nconsolidated level, in case an application is limited to only one Legal\nEntity (LE) of a Large Group?",
+    "relevant_point_ids": [
+      "150.001",
+      "048.004",
+      "150.002",
+      "155.001"
+    ],
+    "question_hash": "83e7e609f808b78"
+  },
+  {
+    "question": "Does a commitment to make under certain conditions an indemnity payment\non behalf of a customer constitute an “off-balance sheet item other than\nthose mentioned in (Article 166) paragraphs 1 to 8” according to Article\n166(10) CRR?\nIf so, does it constitute a medium/ low risk item according to Article\n166(10)(c) CRR, specifically as one of the “other items also carrying\nmedium/low risk and as communicated to EBA” according to Annex I, No.\n3(b)(ii) CRR?",
+    "relevant_point_ids": [
+      "166.010"
+    ],
+    "question_hash": "e1425c560a81da6"
+  },
+  {
+    "question": "What amount of unrealised gains/losses under the “a” of Article 468 needs to\nbe considered to be filtered by factor f for a sovereign exposure measured at\nFVOCI?",
+    "relevant_point_ids": [
+      "468"
+    ],
+    "question_hash": "34ec5970d37c147"
+  },
+  {
+    "question": "How should the term “portfolio” be understood in the context of the 190%\nrisk weight for private equity exposures in “sufficiently diversified portfolios”\nin Article 155(2) of the CRR? Does it refer to the whole institution’s portfolio\nof private equity? Or to any of the “portfolios” that an institution has\nidentified for internal risk management purposes instead?",
+    "relevant_point_ids": [
+      "155.002"
+    ],
+    "question_hash": "ee8defa15bd90ca"
+  },
+  {
+    "question": "How should RWA be calculated for unfunded credit risk mitigation when the\nprotected exposure is a specialised lending exposure in respect of which an\ninstitution is not able to estimate PDs and used the risk weights in Article\n153(5) CRR?",
+    "relevant_point_ids": [
+      "153.005"
+    ],
+    "question_hash": "ab008184d6df3d5"
+  },
+  {
+    "question": "What is the prudential treatment of the right of use leased assets and\nliabilities and is netting allowed?",
+    "relevant_point_ids": [],
+    "question_hash": "44112e71f84c2f2"
+  },
+  {
+    "question": "For the purpose of determining the percentage applicable under the Markto-Market Method according to Article 274(2) or (3) CRR, how should the\nresidual maturity be determined for contracts with an early-termination\nclause?",
+    "relevant_point_ids": [
+      "274.002"
+    ],
+    "question_hash": "278f67ca846a13f"
+  },
+  {
+    "question": "31 of 33\n\nShould the guidance on additional own funds be taken into account in the\nquantification of the minority interests of a subsidiary that is included in an\ninstitution`s consolidated CET1 capital according to Article 84(1) CRR?",
+    "relevant_point_ids": [
+      "084.001"
+    ],
+    "question_hash": "acbe2381b7c3f52"
+  }
+]
