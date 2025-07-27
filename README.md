@@ -46,7 +46,6 @@ This system provides an advanced ColBERT RAG implementation with a professional 
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd regulation-kg-eval
    ```
 
 2. **Install dependencies**:
@@ -79,7 +78,7 @@ This system provides an advanced ColBERT RAG implementation with a professional 
 
 6. **Launch the web interface**:
    ```bash
-   streamlit run streamlit_app_working.py --server.port 8503
+   streamlit run app.py --server.port 8503
    ```
 
 7. **Open your browser** to `http://localhost:8503` and start asking regulatory questions!
@@ -116,7 +115,6 @@ The interface includes 8 pre-loaded regulatory questions:
 ## 🏗️ Project Structure
 
 ```
-regulation-kg-eval/
 ├── src/regulations_rag_eval/           # Core framework
 │   ├── rag_implementations/ColBERT/    # ColBERT implementation
 │   │   ├── generate_answers.py         # Main answer generation
@@ -128,7 +126,7 @@ regulation-kg-eval/
 ├── data/                               # Regulatory documents and results
 │   ├── CRR.txt                        # Capital Requirements Regulation
 │   └── ColBERT/                       # ColBERT-specific data
-├── streamlit_app_working.py            # Main Streamlit UI
+├── app.py            # Main Streamlit UI
 ├── images/UI.jpeg                      # UI screenshot
 └── pyproject.toml                      # Dependencies
 ```
