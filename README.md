@@ -1,6 +1,8 @@
 # ColBERT RAG Assistant for Regulatory Documents
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Framework: Streamlit](https://img.shields.io/badge/Framework-Streamlit-red.svg)](https://streamlit.io)
+[![Vector DB: Weaviate](https://img.shields.io/badge/VectorDB-Weaviate-blueviolet)](https://weaviate.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A sophisticated ColBERT-based Retrieval-Augmented Generation (RAG) system designed specifically for querying regulatory documents, particularly the **Capital Requirements Regulation (CRR)**.
