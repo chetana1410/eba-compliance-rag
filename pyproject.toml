@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Evaluation framework for RAG implementations for working with regulations"
 readme = "README.md"
 authors = [
-    { name = "jrwone0", email = "jrwilliams@gmail.com" }
+    { name = "Chetana Tanmayee", email = "chetanatanmayee@gmail.com" }
 ]
 requires-python = ">=3.10"
 dependencies = [

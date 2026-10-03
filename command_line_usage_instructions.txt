@@ -23,10 +23,10 @@ This guide will walk you through how to use the regulation RAG evaluation framew
 
 3. Set up environment variables:
    ```bash
-   cp example.local.env .env
+   cp env.example .env
    ```
    ```cmd
-   copy example.local.env .env
+   copy env.example .env
    ```
 
 4. Edit the .env file with your API keys and configuration:
@@ -296,7 +296,7 @@ After generating answers, you can evaluate their quality against golden (referen
 ```bash
 cd regulation_kg_eval_main
 pip install -e .
-cp example.local.env .env
+cp env.example .env
 # Edit .env with your API keys
 nano .env
 
@@ -315,7 +315,7 @@ regulations-rag-eval analyze-scores -i naive_rag -d
 ```cmd
 cd regulation_kg_eval_main
 pip install -e .
-copy example.local.env .env
+copy env.example .env
 # Edit .env with your API keys
 notepad .env
 

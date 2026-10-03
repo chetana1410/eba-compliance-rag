@@ -43,6 +43,9 @@ venv/
 env/
 .venv/
 
+# JS deps accidentally vendored by a markdown renderer
+node_modules/
+
 # IDE and system files
 .DS_Store
 .ipynb_checkpoints/

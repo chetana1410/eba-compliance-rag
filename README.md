@@ -47,7 +47,8 @@ This system provides an advanced ColBERT RAG implementation with a professional 
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/chetana1410/eba-compliance-rag.git
+   cd eba-compliance-rag
    ```
 
 2. **Install dependencies**:
@@ -57,7 +58,7 @@ This system provides an advanced ColBERT RAG implementation with a professional 
 
 3. **Set up environment variables**:
    ```bash
-   cp example.local.env .env
+   cp env.example .env
    # Edit .env with your API keys
    ```
 
